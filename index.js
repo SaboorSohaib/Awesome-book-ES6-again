@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import Book from './modules/book-class.js';
-import clearFields from './modules/clear-fields.js';
+import { clearFields } from './modules/clear-fields.js';
 import { DateTime } from './modules/luxon.min.js';
 
 if (localStorage.getItem('My Books') === null) {
