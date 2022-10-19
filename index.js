@@ -13,37 +13,50 @@ const updateLocalStorage = () => {
   localStorage.setItem('My Books', JSON.stringify(Localstoragebook));
 };
 
+const removeBook = (i) => {
+  Localstoragebook.splice(i, 1);
+  localStorage.setItem('My Books', JSON.stringify(Localstoragebook));
+  clearFields();
+};
+
 function createListOfBooks(arr) {
-  let books = '';
-  for (let i = 0; i < arr.length; i += 1) {
-    let liClass = 'dark-bakcground';
-    if (i % 2 === 0) {
-      liClass = 'book-li';
-    }
-    books += `
-                <li class= '${liClass}'>${arr[i].title} by ${arr[i].author} <button class="remove-btn" onclick="removeBook(${i})">Remove</button></li> <br />
-                `;
-  }
-  return books;
+  const ul = document.createElement('ul');
+  ul.classList.add('book-ul');
+
+  arr.forEach((item, index) => {
+    const li = document.createElement('li');
+    const liClass = index % 2 === 0 ? 'book-li' : 'dark-bakcground';
+    li.classList.add(liClass);
+    li.innerText = `${item.title} by ${item.author}`;
+
+    const removeBtn = document.createElement('button');
+    removeBtn.classList.add('remove-btn');
+    removeBtn.innerText = 'Remove';
+    removeBtn.addEventListener('click', () => {
+      Localstoragebook.splice(index, 1);
+      localStorage.setItem('My Books', JSON.stringify(Localstoragebook));
+      clearFields();
+      document.location.reload();
+    });
+
+    li.append(removeBtn);
+    ul.append(li);
+  });
+
+  return ul;
 }
+
 const showBooks = () => {
   const listOfBooks = document.querySelector('.container');
-  listOfBooks.innerHTML = `
-                <ul class="book-ul"/>
-                ${createListOfBooks(Localstoragebook)}</ul>
-            `;
+
+  const ul = createListOfBooks(Localstoragebook);
+  listOfBooks.innerHTML = '';
+  listOfBooks.append(ul);
 };
 
 const addNewBook = (bookTitle, bookAuthor) => {
   const myBook = new Book(bookTitle, bookAuthor);
   Localstoragebook.push(myBook);
-  updateLocalStorage();
-  showBooks();
-  clearFields();
-};
-
-const removeBook = (i) => {
-  Localstoragebook.splice(i, 1);
   updateLocalStorage();
   showBooks();
   clearFields();

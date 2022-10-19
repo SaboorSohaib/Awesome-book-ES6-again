@@ -10,7 +10,7 @@ h1 {
 }
 
 .container {
-  display: none;
+  display: block;
   border: 2px solid black;
   width: 50%;
   margin: 1rem auto;
@@ -67,6 +67,10 @@ form {
 .book-title,
 .author-name {
   margin: 1rem;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
 }
 
 hr {
@@ -84,8 +88,13 @@ hr {
   margin: 0.5rem;
 }
 
+.add-btn {
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .add-book {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -169,7 +178,7 @@ footer p {
 
 .books-title {
   text-align: center;
-  display: none;
+  display: block;
 }
 
 .our-date {
