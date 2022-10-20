@@ -20,7 +20,7 @@ const removeBook = (i) => {
   clearFields();
 };
 
-function createListOfBooks(arr) {
+const createListOfBooks = (arr) => {
   const ul = document.createElement('ul');
   ul.classList.add('book-ul');
 
@@ -45,7 +45,7 @@ function createListOfBooks(arr) {
   });
 
   return ul;
-}
+};
 
 const showBooks = () => {
   const listOfBooks = document.querySelector('.container');
@@ -76,10 +76,10 @@ window.onload = showBooks();
 // ======== NAVIGATIONS =================
 
 // ==== Luxon Date ====
-const showDate = document.querySelector('.our-date');
+const date = document.querySelector('.our-date');
 const updateTime = () => {
   const now = DateTime.now();
-  showDate.innerHTML = now.toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
+  date.innerHTML = now.toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
 };
 setInterval(updateTime, 1000);
 
