@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import Book from './modules/book-class.js';
+import pageNavbar from './modules/navbar.js';
 import { clearFields } from './modules/clear-fields.js';
 import { DateTime } from './modules/luxon.min.js';
 
@@ -74,14 +75,6 @@ window.onload = showBooks();
 
 // ======== NAVIGATIONS =================
 
-const contactLink = document.querySelector('.contact-us');
-const listOfBooks = document.querySelector('.container');
-const booksection = document.querySelector('.add-book');
-const listLink = document.querySelector('.list');
-const contactSection = document.querySelector('.contact');
-const addNewLink = document.querySelector('.add-new');
-const titleBookOne = document.querySelector('.books-title');
-
 // ==== Luxon Date ====
 const showDate = document.querySelector('.our-date');
 const updateTime = () => {
@@ -90,27 +83,4 @@ const updateTime = () => {
 };
 setInterval(updateTime, 1000);
 
-// Single page Part
-listLink.addEventListener('click', (e) => {
-  e.preventDefault();
-  titleBookOne.style.display = 'block';
-  listOfBooks.style.display = 'block';
-  contactSection.style.display = 'none';
-  booksection.style.display = 'none';
-});
-
-addNewLink.addEventListener('click', (e) => {
-  e.preventDefault();
-  booksection.style.display = 'block';
-  listOfBooks.style.display = 'none';
-  contactSection.style.display = 'none';
-  titleBookOne.style.display = 'none';
-});
-
-contactLink.addEventListener('click', (e) => {
-  e.preventDefault();
-  booksection.style.display = 'none';
-  listOfBooks.style.display = 'none';
-  contactSection.style.display = 'block';
-  titleBookOne.style.display = 'none';
-});
+pageNavbar();
