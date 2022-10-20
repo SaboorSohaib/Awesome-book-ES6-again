@@ -1,6 +1,5 @@
 # Awesome-book-ES6-again
 
-# Awesome-book-ES6# Awesome-books-Project
 Basic website that allows users to add/remove books from a list. 
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
