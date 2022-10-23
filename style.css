@@ -46,7 +46,7 @@ header {
 .mylist {
   display: flex;
   justify-content: end;
-  padding: 17px;
+  padding: 15px;
   gap: 22px;
   list-style: none;
   margin-right: 22px;
