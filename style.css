@@ -18,7 +18,7 @@ h1 {
 .container {
   display: block;
   border-radius: 5px;
-  border: 3px solid black;
+  border: 3px solid rgb(172, 81, 81);
   width: 55%;
   margin: 10px auto;
 }
