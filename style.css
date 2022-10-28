@@ -61,7 +61,7 @@ header {
 }
 
 .mylist a:hover {
-  color: red;
+  color: rgb(212, 119, 119);
   font-size: 20px;
   font-weight: 700;
 }
