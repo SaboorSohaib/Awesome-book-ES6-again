@@ -50,7 +50,7 @@ header {
 }
 
 .top-h1:hover {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .mylist {
@@ -209,4 +209,5 @@ footer p {
   justify-content: end;
   margin-top: 20px;
   margin-right: 65px;
+  color: rgb(255, 255, 255);
 }
