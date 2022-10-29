@@ -103,6 +103,12 @@ hr {
   border: 1px solid rgb(219, 118, 118);
   padding: 7px;
   border-radius: 7px;
+  transition: all 0.25s ease;
+}
+
+.add-btn:hover {
+  scale: 1.2;
+  background-image: linear-gradient(to left, rgba(226, 133, 266, 0.53), rgba(255, 85, 6, 0.8));
 }
 
 .add-book {
