@@ -46,6 +46,11 @@ header {
 
 .top-h1 {
   margin-left: 10px;
+  transition: all 0.25s ease;
+}
+
+.top-h1:hover {
+  color: white;
 }
 
 .mylist {
