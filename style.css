@@ -81,11 +81,17 @@ form {
 
 .book-title,
 .author-name {
-  border: 2px solid rgb(226, 126, 226);
+  border: none;
   border-radius: 7px;
   padding: 7px;
   margin: 12px;
   background-image: linear-gradient(to left, rgba(226, 133, 266, 0.53), rgba(255, 85, 6, 0.8));
+}
+
+.book-title,
+.author-name:focus {
+  border: none;
+  outline: none;
 }
 
 hr {
