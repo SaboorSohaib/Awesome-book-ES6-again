@@ -118,7 +118,7 @@ hr {
 }
 
 .add-btn:hover {
-  scale: 1.2;
+  transform: scale(1.2);
   background-image: linear-gradient(to left, rgba(226, 133, 266, 0.53), rgba(255, 85, 6, 0.8));
 }
 
@@ -148,7 +148,10 @@ hr {
 
 .remove-btn {
   background-image: linear-gradient(to left, rgba(226, 133, 266, 0.53), rgba(255, 85, 6, 0.8));
+  border: none;
+  padding: 5px;
 }
+
 
 .dark-bakcground {
   display: flex;
