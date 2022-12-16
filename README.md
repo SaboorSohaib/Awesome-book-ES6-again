@@ -66,7 +66,7 @@ We use Linters for HTML/CSS to cheack this project.
 👤 **Abdul Saboor**
 
 - GitHub: [@SaboorSohaib](https://github.com/SaboorSohaib)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdul-saboor-sohaib-b5b566244/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdul-saboor-sohaib/)
 - Twitter: [Twitter](absaboorsohaib)
 
 ## 🤝 Contributing
