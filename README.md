@@ -36,9 +36,9 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Math Magician ](#-math-magician-)
+- [📖 Awesome Book ](#-awesome-book-)
   - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
+    - [Tech Stack JavaScript](#tech-stack-javascript)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
@@ -58,15 +58,15 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math Magician <a name="about-project"></a>
+# 📖 Awesome Book <a name="about-project"></a>
 
-> Math is a website where you can perform simple calculation.
+> Awesome book is a website where you can add and remove books.
 
-**Math Magician** is a React single page application.
+**Awesome book** is a Javascript single page application.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack">JavaScript</a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
