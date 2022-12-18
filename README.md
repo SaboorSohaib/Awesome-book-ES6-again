@@ -1,86 +1,247 @@
-# Awesome-book-ES6-again
+<a name="readme-top"></a>
 
-Basic website that allows users to add/remove books from a list. 
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
+Modify this file to match your project and remove sections that don't apply.
 
-> Awesome-Books Web site.
-## Awesome-Books Web site Project initialization
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Math Magician ](#-math-magician-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Math Magician <a name="about-project"></a>
+
+> Math is a website where you can perform simple calculation.
+
+**Math Magician** is a React single page application.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="#">N/A</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="#">N/A</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> This Project has the following fetures.
+
+- **It perform Four Basic math operation**
+- **It has three peges**
+- **It is single page application**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> This Project is not dyployed yet.
+
+- [Live Demo Link](https://timely-semifreddo-a67fe7.netlify.app)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+ - Laptop/Desktop.
+ - Internet.
+ - Node.
+ - Vs Code.
+### Setup
+
+Clone this repository to your desired folder:
+ - mkdir my-folder
+ - cd my-folder
+ - git clone [(git@github.com:SaboorSohaib/math-magician.git)]
 
 
-## Live Demo:
+### Install
 
-[Live Demo Link](https://saboorsohaib.github.io/Awesome-book-ES6-again/)
+Install this project with:
 
- ## Built With
-
-- HTML(HTML-5).
-- CSS(Flexbox - grid).
-- javaScript (ES6 and Modules).
-- Github.
-- Local Storage.
-- Linters.
-
-### In this project we :
-- Add Linters for HTML/CSS.
-- Use best practices for HTML & CSS.
-- Update README file.
-- Add Mark up to the .html file.
-- Add style to the web site.
-- Add Form to save books .
-- use Local storage to save user data.
-- User can add books and can remoove it from the list.
-- Using classes instead of Objects.
-- ★ Modify the Awesome books application to have:
-     - A Navigation bar.
-     - Three content sections:
-         - Books list.
-         - Add book form.
-         - Contact info.
-
-
-
-## Getting Started
-
-1- clone Repo.
-git clone git@github.com:MostafaShahat2021/portfolio.git
-
-2- Install npm (node pakage manager)
 **you can run any one of these commands to install npm on your machine:**
+
 - npm i
 - npm install
 - sudo apt install npm
 
- **to install globally, just add a -g or --global after the install or i**
-- npm i -g
-- sudo apt install -g npm
+### Usage
+
+To run the project, execute the following command:
+
+- npm start.
 
 ### Run tests
 
-We use Linters for HTML/CSS to cheack this project.
+- npm test.
 
-## Authors
+### Deployment
 
+You can deploy this project using:
 
+- Netlify
 
-👤 **Abdul Saboor**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- GitHub: [@SaboorSohaib](https://github.com/SaboorSohaib)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdul-saboor-sohaib-b5b566244/)
+<!-- AUTHORS -->
 
-## 🤝 Contributing
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
+
+👤 **Abdul Saboor Sohaib**
+
+- GitHub: [@githubhandle](https://github.com/SaboorSohaib)
+- Twitter: [@twitterhandle](https://twitter.com/absaboorsohaib)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdul-saboor-sohaib/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- **Add advanced math operation**
+- **Add more pages**
+- **Add database to save some operation**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## 📝 License
+## ⭐️ Show your support <a name="support"></a>
 
+> Write a message to encourage readers to support your project
+
+If you like this project...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **How can we develop an app using ReactJS?**
+
+  - You should watch some videos and read dcumentaions.
+
+- **How long it will take to develop such kind of app?**
+
+  - It may takes two days.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
