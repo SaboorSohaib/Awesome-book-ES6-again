@@ -109,7 +109,7 @@ After you're finished please remove all the comments and instructions!
 
 > This Project is not dyployed yet.
 
-- [Live Demo Link](https://timely-semifreddo-a67fe7.netlify.app)
+- [Live Demo Link]( https://saboorsohaib.github.io/Awesome-book-ES6-again/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
